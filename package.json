@@ -1,0 +1,26 @@
+{
+  "name": "tinylopsssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "build": "rm -rf dist && webpack --mode development",
+    "start": "node ./dist/bundle.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.0"
+  }
+}
